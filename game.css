@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+.body{
+  height: 590px;
+  width: 100%;
+  /* background-color: rgb(160, 237, 237); */
+}
+.box{
+  font-family: "Madimi One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xx-large;
+  height: 500px;
+  width: 600px;
+  background-color: bisque;
+  margin: auto;
+  margin-top: -42%;
+  text-align: center;
+  letter-spacing: 5px;
+  border-radius: 20px;
+  color:maroon;
+  padding-top: 40px;
+  border: 2px solid black;
+}
+#no1{
+  height: 90px;
+  width: 100px;
+  background-color:rgb(99, 97, 238);
+  margin-top: 70px;
+  margin-left: 40px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 70px;
+  color: aliceblue;
+  padding-top: 10px;
+  animation-name: firstnumber;
+  animation-duration: 4s;
+  border: 2px solid black;
+}
+@keyframes firstnumber {
+  0%   {background-color:rgb(255, 190,11);}
+  25%  {background-color:rgb(251, 86,7);}
+  50%  {background-color:rgb(255, 0,110);}
+  75% {background-color:rgb(131, 56,236);}
+  100% {background-color:rgb(58, 134,255);}
+}
+#no2{
+  height: 80px;
+  width: 90px;
+  background-color:rgb(3, 54, 86);
+  margin-top: 100px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 60px;
+  color: aliceblue;
+  padding-top: 10px;
+  margin-left: 150px;
+  animation-name: secondnumber;
+  animation-duration: 6s;
+  border: 2px solid black;
+}
+@keyframes secondnumber {
+  0%   {background-color:rgb(120,0,0);}
+  25%  {background-color:rgb(193, 18,31);}
+  50%  {background-color:rgb(62, 51, 1);}
+  75% {background-color:rgb(0, 48,73);}
+  100% {background-color:rgb(102, 155,188);}
+}
+#no3{
+  height: 90px;
+  width: 100px;
+  background-color:rgb(66, 102, 122);
+  margin-left: 50px;
+  margin-top: 100px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 70px;
+  color: aliceblue;
+  padding-top: 10px;
+  animation-name: thirdnumber;
+  animation-duration: 5s;
+  border: 2px solid black;
+}
+@keyframes thirdnumber {
+  0%   {background-color:rgb(202, 210,197);}
+  25%  {background-color:rgb(132, 169,140);}
+  50%  {background-color:rgb(82, 121,111);}
+  75% {background-color:rgb(53, 79,82);}
+  100% {background-color:rgb(47, 62,70);}
+}
+#no4{
+  height: 90px;
+  width: 100px;
+  background-color:rgb(84, 11,14);
+  margin-left: 90%;
+  margin-top: -40%;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 70px;
+  color: aliceblue;
+  padding-top: 10px;
+  animation-name: forthnumber;
+  animation-duration: 6s;
+  border: 2px solid black;
+}
+@keyframes forthnumber {
+  0%   {background-color:rgb(51, 92,103);}
+  25%  {background-color:rgb(99, 85, 6);}
+  50%  {background-color:rgb(222, 154, 53);}
+  75% {background-color:rgb(158, 42,43);}
+  100% {background-color:rgb(84, 11,14);}
+}
+#no5{
+  height: 80px;
+  width: 90px;
+  background-color:rgb(3, 139, 117);
+  margin-left: 80%;
+  margin-top: 100px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 60px;
+  color: aliceblue;
+  padding-top: 10px;
+  animation-name: fifthnumber;
+  animation-duration: 5s;
+  border: 2px solid black;
+}
+@keyframes fifthnumber {
+  0%   {background-color:rgb(53, 80,112);}
+  25%  {background-color:rgb(108, 89,122);}
+  50%  {background-color:rgb(181, 101,118);}
+  75% {background-color:rgb(229, 107,111);}
+  100% {background-color:rgb(179, 114, 9);}
+}
+#no6{
+  height: 90px;
+  width: 100px;
+  background-color:orangered;
+  margin-left:90%;
+  margin-top: 100px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 70px;
+  color: aliceblue;
+  padding-top: 10px;
+  animation-name: sixthnumber;
+  animation-duration: 4s;
+  border: 2px solid black;
+}
+@keyframes sixthnumber {
+  0%   {background-color:rgb(238, 81, 42);}
+  25%  {background-color:rgb(211, 149, 102);}
+  50%  {background-color:rgb(126, 74, 70);}
+  75% {background-color:rgb(201, 118, 85);}
+  100% {background-color:rgb(179, 106,94);}
+}
+.form{
+  height: 180px;
+  /* width: 190px; */
+  background-color: rgb(128, 207, 210);
+  margin-top: 100px;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+label{ 
+  font-size:20px;
+  font-weight:10px;
+  padding: 100px;
+  color:rgb(90, 47, 135);
+}
